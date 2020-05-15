@@ -20,6 +20,8 @@ public class LoginJumpController {
     @RequestMapping("login")
     public  String openLoginJump(){
         System.out.println("跳转登陆页面！");
+
+        System.out.println("跳转登陆页面！第一次测试开始！！！！！！！！！！！！！！！！！！！！！");
         return "login.html";
     }
 
