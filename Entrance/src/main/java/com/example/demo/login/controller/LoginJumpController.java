@@ -21,7 +21,7 @@ public class LoginJumpController {
     public  String openLoginJump(){
         System.out.println("跳转登陆页面！");
 
-        System.out.println("跳转登陆页面！第一次测试开始！！！！！！！！！！！！！！！！！！！！！");
+        System.out.println("跳转登陆页面！第二次测试开始！！！！！！！！！！！！！！！！！！！！！");
         return "login.html";
     }
 
