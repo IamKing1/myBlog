@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @ClassName LoginJumpController
+ * @ClassName LoginController
  * @Description TODO
  * @Author admin
  * @Date 2020/1/19 10:41
@@ -19,15 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
 
-
     @Autowired
-    private LoginService loginService;
-
-    /**
-     *
-     * @param name
-     * @return
-     */
+    LoginService loginService;
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
         return loginService.getLoginMeg(name);

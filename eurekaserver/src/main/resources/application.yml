@@ -2,9 +2,7 @@ server:
   port: 8761
 eureka:
   instance:
-    instance-id: 39.106.77.194
-    prefer-ip-address: true
-    non-secure-port: ${server.port}
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false

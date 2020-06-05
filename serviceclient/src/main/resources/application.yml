@@ -1,11 +1,9 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://39.106.77.194:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
-    instance-id: 39.106.77.194
-    prefer-ip-address: true
-    non-secure-port: ${server.port}
+    hostname: localhost
 server:
   port: 8762
 spring:
